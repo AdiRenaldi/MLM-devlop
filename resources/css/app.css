@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* scroll */
+    .scrollbar-thinner::-webkit-scrollbar {
+        width: 7px; /* Lebar scrollbar */
+        height: 7px; /* Lebar scrollbar horizontal */
+    }
+
+    .scrollbar-thinner::-webkit-scrollbar-thumb {
+        background-color: #f240b3;
+        border-radius: 2px;
+    }
+
+    .scrollbar-thinner::-webkit-scrollbar-track {
+        background-color: rgb(216, 223, 237);
+    }
+}
